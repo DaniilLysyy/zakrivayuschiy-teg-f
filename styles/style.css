@@ -168,7 +168,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  border: 2px solid transparent;
+ 
   transition: border-color 0.3s ease;
 }
 
@@ -261,12 +261,17 @@ body:has(.floppy_dialog[open]) {
   font-family: var(--accent-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
   text-align: left;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
   width: fit-content;
+}
+
+.dialog_floppy_svg {
+  width: 39px;
+  height: 39px;
 }
 
 .save_button {
@@ -282,12 +287,6 @@ body:has(.floppy_dialog[open]) {
 
 .sparks {
   opacity: 0;
-}
-
-.button_block {
-  display: flex;
-  align-self: end;
-  gap: 7px;
 }
 
 .floppy_svg {
