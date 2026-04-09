@@ -35,6 +35,8 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  padding-block: 0;
+  padding-inline: 0;
 }
 
 ul,
