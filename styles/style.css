@@ -160,7 +160,7 @@
   cursor: pointer;
   font-family: var(--accent-font);
   font-size: 14px;
-  line-height: 0.9; 
+  line-height: 0.9;
   margin-left: 2px;
 }
 
@@ -173,12 +173,11 @@
   cursor: pointer;
   transition: border 0.3s ease;
   padding-inline: 0;
-  background-color: transparent;
   outline: 2px solid transparent;
 }
 
 .like-icon {
-  width: 39px;  
+  width: 39px;
   height: 36px;
   background-color: transparent;
   border: none;
